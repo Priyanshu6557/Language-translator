@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title animate-fade-in">Language Translator</h1>
+        <h4> Priyanshu❤️🍁</h4>
+
+        <div class="translator">
+            <select id="source-lang" class="dropdown animate-slide-in">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                 <option value="hi">Hindi</option>
+                <option value="ko">Korean</option>
+                <option value="ja">Japani</option>
+                <!-- Add more languages -->
+            </select>
+            <textarea id="input-text" placeholder="Enter text to translate..." class="input animate-slide-in"></textarea>
+            <button id="translate-btn" class="btn animate-bounce">Translate</button>
+            <select id="target-lang" class="dropdown animate-slide-in">
+                <option value="es">Spanish</option>
+                <option value="en">English</option>
+                <option value="fr">French</option>
+                  <option value="hi">Hindi</option>
+                <option value="ko">Korean</option>
+                <option value="ja">Japani</option>
+                <!-- Add more languages -->
+            </select>
+            <div id="output" class="output animate-fade-in"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
